@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Página de Profissionais</title>
+    <link rel="icon" href="/sgcm/imagens/logo_azul(64).png">
+</head>
+
+<body>
+    <header>
+        <img src="/sgcm/imagens/logo_azul(64).png" alt="Logo SGCMs">
+        <p>SGCM - Sistema de Gerenciamento de Consultas Médicas</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li>
+                <a href="paciente.html">PACIENTE</a>
+            </li>
+            <li>
+                <a href="atendimento.html">ATENDIMENTO</a>
+            </li>
+            <li>
+                <a href="profissional.html">PROFISSIONAL</a>
+            </li>
+            <li>
+                <a href="convenio.html">CONVÊNIO</a>
+            </li>
+            <li>
+                <a href="unidade.html">UNIDADE</a>
+            </li>
+            <li>
+                <a href="especialidade.html">ESPECIALIDADE</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <br>
+            <label for="registroConselho">Registro Conselho:</label>
+            <input type="text" id="registroConselho" name="registroConselho">
+            <br>
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="unidade">Unidade:</label>
+            <select id="unidade" name="unidade">
+                <option value="" selected></option>
+                <option value="1">UPA - Segundo Distrito</option>
+                <option value="2">UPA - Cidade do Povo</option>
+                <option value="3">Pronto Socorro</option>
+            </select>
+            <br>
+            <label for="especialidade">Especialidade</label>
+            <select id="especialidade" name="especialidade">
+                <option value=""></option>
+                <option value="1">Cardiologista</option>
+                <option value="2">Urologista</option>
+                <option value="3">Ginecologista</option>
+            </select>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+        <table border="1">
+            <!-- tr*6>td{X}*8 
+             Gera 6 linhas com 8 colunas preenchidas com X -->
+            <!-- tr*5>td{$}+td*6{X}+td{Editar|Excluir} -->
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>NOME</th>
+                    <th>REG. CONSELHO</th>
+                    <th>TELEFONE</th>
+                    <th>EMAIL</th>
+                    <th>UNIDADE</th>
+                    <th>ESPECIALIDADE</th>
+                    <th>OPÇÕES</th>
+                </tr>
+            </thead>
+            <!-- tr*5>td{$}+td*6{X}+td{<a href="">Editar</a>|<a href="">Excluir</a>} -->
+            <tr>
+                <td>1</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td><a href="">Editar</a>|<a href="">Excluir</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td><a href="">Editar</a>|<a href="">Excluir</a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td><a href="">Editar</a>|<a href="">Excluir</a></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td><a href="">Editar</a>|<a href="">Excluir</a></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td><a href="">Editar</a>|<a href="">Excluir</a></td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="8">Quantidade de Profissionais: 5</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <p>Telefone: (68)3223-3030 | Email: suporte@sgcm.ufac.br</p>
+    </footer>
+</body>
+
+</html>
