@@ -1,0 +1,57 @@
+* {
+    /*Seletor Universal*/
+    color: black;
+}
+
+a {
+    color: green;
+}
+
+.link_red {
+    color: white;
+}
+
+#link_red {
+    color: white;
+}
+
+a[href="http://www.ufac.br"] {
+    color: blue;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+/* Combinações de Seletores */
+/* elemento com classe */
+p.negrito {
+    font-weight: bold;
+}
+
+/* elementos descendentes */
+p span {
+    font-style: italic;
+}
+
+/* elementos vizinhos */
+p+h3,
+h2 {
+    font-size: 1.5em;
+}
+
+/* elementos filhos diretos */
+ul>li {
+    background-color: rgba(255, 0, 0, 0.555);
+}
+
+/* elementos vizinhos posteriores */
+p+h3~h3 {
+    font-size: 12px;
+    color: blue;
+}
+
+a:hover {
+    color: #003366;
+}
