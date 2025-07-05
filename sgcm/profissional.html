@@ -5,12 +5,15 @@
     <meta charset="utf-8">
     <title>Página de Profissionais</title>
     <link rel="icon" href="/sgcm/imagens/logo_azul(64).png">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
     <header>
-        <img src="/sgcm/imagens/logo_azul(64).png" alt="Logo SGCMs">
-        <p>SGCM - Sistema de Gerenciamento de Consultas Médicas</p>
+        <div id="topo">
+            <img src="/sgcm/imagens/logo_azul(64).png" alt="Logo SGCMs">
+            <p>SGCM - Sistema de Gerenciamento de Consultas Médicas</p>
+        </div>
     </header>
     <nav>
         <ul>
@@ -36,19 +39,19 @@
         </ul>
     </nav>
     <main>
-        <form action="">
+        <form class="profissional" action="">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome">
-            <br>
+
             <label for="registroConselho">Registro Conselho:</label>
             <input type="text" id="registroConselho" name="registroConselho">
-            <br>
+
             <label for="telefone">Telefone:</label>
             <input type="text" id="telefone" name="telefone">
-            <br>
+
             <label for="email">Email:</label>
             <input type="email" id="email" name="email">
-            <br>
+
             <label for="unidade">Unidade:</label>
             <select id="unidade" name="unidade">
                 <option value="" selected></option>
@@ -56,7 +59,7 @@
                 <option value="2">UPA - Cidade do Povo</option>
                 <option value="3">Pronto Socorro</option>
             </select>
-            <br>
+
             <label for="especialidade">Especialidade</label>
             <select id="especialidade" name="especialidade">
                 <option value=""></option>
@@ -64,11 +67,11 @@
                 <option value="2">Urologista</option>
                 <option value="3">Ginecologista</option>
             </select>
-            <br>
+
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </form>
-        <table border="1">
+        <table>
             <!-- tr*6>td{X}*8 
              Gera 6 linhas com 8 colunas preenchidas com X -->
             <!-- tr*5>td{$}+td*6{X}+td{Editar|Excluir} -->
@@ -93,7 +96,7 @@
                 <td>X</td>
                 <td>X</td>
                 <td>X</td>
-                <td><a href="">Editar</a>|<a href="">Excluir</a></td>
+                <td><a class="botao_verde" href="">Editar</a>|<a class="botao_vermelho" href="">Excluir</a></td>
             </tr>
             <tr>
                 <td>2</td>
