@@ -12,10 +12,11 @@ div#topo {
     background: linear-gradient(#003366, #006699);
     color: white;
     height: 75px;
+    align-items: center;
 }
 
 div#topo p {
-    font-size: 2em;
+    font-size: 1.4em;
 }
 
 /* navegação */
@@ -75,7 +76,7 @@ table tr:hover {
 
 form.profissional {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     width: fit-content;
     gap: 5px;
     padding: 10px;
@@ -107,3 +108,23 @@ input[type="reset"],
 }
 
 /* Rodapé */
+
+footer {
+    background: linear-gradient(#003366, #006699);
+    color: white;
+    padding: 5px;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 910px) {
+
+    ul,
+    ul li a {
+        display: block;
+    }
+
+    form.profissional {
+        grid-template-columns: 1fr;
+    }
+}
