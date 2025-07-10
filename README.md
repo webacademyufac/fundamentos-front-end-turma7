@@ -66,3 +66,41 @@ Link no github classroom:
 https://classroom.github.com/a/dNYSTfeS
 
 Entrega: 07/07/2025 até 18h
+
+2. [DUPLA] Funcionalidades JavaScript:
+ a) Adicionar um botão acima da tabela de profissionais com o texto Adicionar que deve apresentar o form de cadastro do profisional. Quando o formulário ativo o botão deve ficar oculto. Quando os dados forem enviados para a tabela, apresente uma mensagem de confirmação, atualize a tabela e oculte o formulário. Adicione um botão Cancelar no formulário que deve ocultar o formulário e reapresentar a opção de Adicionar.
+ b) Alterar o rodapé da tabela que mostra o total de profissionais para que seja atualizado conforme a quantidade de profissionais. A atualização deve considerar todos os registros.
+ c) Implementar a funcionalidade do botão editar para a página de profissionais. Quando o botão for acionado o formulário deve ser apresentado permitindo a edição do profissional que foi escolhido na tabela.
+ d) Melhorar a responsividade da tabela na página de profissionais, mostrando apenas as colunas id, nome, especialidade e opções em dispositivos menores.
+
+
+Link no github classroom: https://classroom.github.com/a/TzNbcQ3x
+Entrega: 12/07/2025 até 23:59
+
+
+3. [GRUPO] Páginas de cadastro do SGCM:
+ Construir páginas para cadastro de usuários, convênios, unidades, especialidades, pacientes e atendimento de forma semelhante à página de cadastro de profissionais, e baseado na [documentação do SGCM](https://github.com/webacademyufac/sgcmdocs).
+    - Time 1 (Khalil, Pedro, Artur, Mauricio, Andrey)
+    - Time 2 (Caio, Carlos, Felipe, Tiago, Elyvan)
+    - Time 3 (Andre, Julia, Ronauro, Jhonatas)
+    - Time 4 (Ludimila, Maria Eduarda, Kauany, Ana Beatriz)
+    - Time 5 (Giovanna, Vinicius, Jakeline)
+    - Time 6 (Alonso, Bruno, Emanuel, Marcos Vinicius)
+    
+    - Página de Usuários (Time 5)
+    - Página de Convênios (Time 4)
+    - Página de Unidades (Time 3)
+    - Página de Especialidades (Time 1)
+    - Página de Pacientes (Time 2)
+    - Página de Atendimentos (Time 6)
+
+    - Dados no formato JSON para serem usados nas páginas:
+        - Usuários: <https://my-json-server.typicode.com/juniorlimeiras/json2/usuarios>
+        - Usuários: <https://my-json-server.typicode.com/juniorlimeiras/json2/atendimentos>
+        - Convênios: <https://my-json-server.typicode.com/juniorlimeiras/json/convenios>
+        - Unidades: <https://my-json-server.typicode.com/juniorlimeiras/json/unidades>
+        - Especialidades: <https://my-json-server.typicode.com/juniorlimeiras/json/especialidades>
+        - Pacientes: <https://my-json-server.typicode.com/juniorlimeiras/json/pacientes>
+
+Link no github classroom: https://classroom.github.com/a/xzlTqkvp
+Entrega: 14/07/2025 até 18h
