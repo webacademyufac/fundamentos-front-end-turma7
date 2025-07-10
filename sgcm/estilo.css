@@ -69,7 +69,7 @@ table tr:nth-child(even) {
 }
 
 table tr:hover {
-    background-color: #c7c2c2;
+    background-color: #f0eeee;
 }
 
 /* Formulário */
